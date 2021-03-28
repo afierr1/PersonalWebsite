@@ -1,8 +1,123 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<main role="main" class="ml-sm-auto col-12">
+    <div class="parallax-window"
+         data-parallax="scroll"
+         data-image-src="img/dream-pulse-header.jpg">
+        <div class="tm-section-wrap">
+            <section id="intro" class="tm-section">
+                <div class="tm-bg-white-transparent tm-intro">
+                    <h2 class="tm-section-title mb-5 text-uppercase tm-color-primary">Introduction</h2>
+                    <p class="tm-color-gray">
+                        I am a Baltimore based software developer, educator, and musician. As a developer, I specialize in mobile applications
+                        and web applications. You may check out <a href="#"> my blog</a> to see what personal projects I am currently working on.
+                    </p>
+                    <p class="mb-0 tm-color-gray">
+                        If you are interested in my music services, you may check out <a href="#">my other website</a> where I am available for hire as an accordionist and pianist.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <div class="tm-section-wrap bg-white">
+        <section id="about" class="row tm-section">
+            <div class="col-12 tm-section-pad">
+                <div class="tm-flex-item-left">
+                    <div class="tm-w-80">
+                        <h2 class="tm-color-primary tm-section-title mb-4">Recent Posts</h2>
+                        <p class="mb-5">
+                            Aenean est augue, iaculis ut arcu a, cursus tempus eros.
+                            Maecenas ut efficitur lectus, vel commodo nibh. Vivamus
+                            consequat massa non euismod facilisis. Morbi assumsan non libero
+                            a vehicula. Donec blandit suscipit magna sit amet elementum.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="tm-section-wrap bg-white">
+        <section id="work" class="row tm-section">
+            <div class="col-12">
+                <div class="w-100 tm-double-border-1 tm-border-gray">
+                    <div class="tm-double-border-2 tm-border-gray tm-box-pad">
+                        <div class="tm-gallery-wrap">
+                            <h2 class="tm-color-primary tm-section-title mb-4 ml-2">My Portfolio</h2>
+                            <div class="tm-gallery">
+                                <div class="tm-gallery-item">
+                                    <figure class="effect-bubba">
+                                        <img src="img/gallery/01.jpg" alt="Our Work Image" class="img-fluid">
+                                        <figcaption>
+                                            <h2>Fresh <span>Bubba</span></h2>
+                                            <p>Bubba likes to appear out of thin air.</p>
+                                            <a href="img/gallery/large/01.jpg">View more</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="tm-section-wrap bg-white">
+        <section id="clients" class="row tm-section">
+            <div class="col-12 tm-section-pad">
+                <div class="tm-flex-item-left">
+                    <div class="tm-w-80">
+                        <h2 class="tm-color-primary tm-section-title mb-4">Recent Posts</h2>
+                        <p class="mb-5">
+                            Aenean est augue, iaculis ut arcu a, cursus tempus eros.
+                            Maecenas ut efficitur lectus, vel commodo nibh. Vivamus
+                            consequat massa non euismod facilisis. Morbi assumsan non libero
+                            a vehicula. Donec blandit suscipit magna sit amet elementum.
+                        </p>
+                    </div>
+               
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="tm-section-wrap bg-white">
+        <section id="talk" class="row tm-section">
+            <div class="col-xl-6 mb-5">
+                <div class="tm-double-border-1 tm-border-gray">
+                    <div class="tm-double-border-2 tm-border-gray tm-box-pad">
+                        <h2 class="tm-color-primary tm-section-title mb-4">Contact Me</h2>
+                        <p class="mb-4">
+                            If you are interested in contacting me about my work, please fill out the information and I will
+                            respond as soon as possible.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 mb-5">
+                <div class="tm-contact-form-wrap">
+                    <form action="" method="POST" class="tm-contact-form">
+                        <div class="form-group">
+                            <input type="text" id="contact_name" name="contact_name" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Your Name" required="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contact_email" name="contact_email" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Your Email" required="" />
+                        </div>
+
+                        <div class="form-group">
+                            <textarea rows="4" id="contact_message" name="contact_message" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Message..." required=""></textarea>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <button type="submit" class="btn rounded-0 d-block ml-auto tm-btn-primary">
+                                SEND
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
